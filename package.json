@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css"
+    "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css --minify --watch"
   },
   "author": "daniel mendez",
   "license": "MIT",
